@@ -1,4 +1,4 @@
-# Rubylite [![Build Status](https://travis-ci.org/vbhv007/rubylite.svg?branch=master)](https://travis-ci.org/vbhv007/rubylite)
+# Rubylite [![Gem Version](https://badge.fury.io/rb/rubylite.svg)](https://badge.fury.io/rb/rubylite)
 
 This is a command line tool which can interact with databases
 
