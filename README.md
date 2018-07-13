@@ -1,4 +1,4 @@
-# Rubylite [![Gem Version](https://badge.fury.io/rb/rubylite.svg)](https://badge.fury.io/rb/rubylite)
+# Rubylite [![Gem Version](https://badge.fury.io/rb/rubylite.svg)](https://badge.fury.io/rb/rubylite)  [![Maintainability](https://api.codeclimate.com/v1/badges/82521265da36e81d3a7c/maintainability)](https://codeclimate.com/github/vbhv007/rubylite/maintainability)
 
 This is a command line tool which can interact with databases
 
