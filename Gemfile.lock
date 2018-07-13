@@ -1,11 +1,14 @@
 PATH
   remote: .
   specs:
-    rubylite (0.1.0)
+    rubylite (0.1.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    amalgalite (1.6.1)
+      arrayfields (~> 4.9)
+    arrayfields (4.9.2)
     minitest (5.11.3)
     rake (10.5.0)
 
@@ -13,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amalgalite (~> 1.6)
   bundler (~> 1.16)
   minitest (~> 5.0)
   rake (~> 10.0)
