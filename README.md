@@ -30,9 +30,9 @@ Let's say **users** is a table
 |  1 | 'vbhv' |
 |  2 | 'luci' |
 
-Users.first # 1 vbhv
-Users.last # 2 luci
-Users.find_by('name', 'vbhv') # 1 vbhv
+User.first # 1 vbhv
+User.last # 2 luci
+User.find_by('name', 'vbhv') # 1 vbhv
 ```
 
 ## Development

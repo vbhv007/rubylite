@@ -5,7 +5,7 @@ require "rubylite/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rubylite"
-  spec.version       = Rubylite::VERSION
+  spec.version       = Version::VERSION
   spec.authors       = ["vbhv007"]
   spec.email         = ["bhardwajvbhv@gmail.com"]
 

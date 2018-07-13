@@ -1,13 +1,9 @@
-require_relative "test_helper"
+require "test_helper"
 
 class RubyliteTest < Minitest::Test
   def setup
-    @ob = RQuery.new
+    @ob = Rubylite.new
     @db = @ob.db_open('vbhv')
-  end
-
-  def test_that_it_has_a_version_number
-    refute_nil ::Rubylite::VERSION
   end
 
   def test_rquery_class_works
@@ -19,14 +15,14 @@ class RubyliteTest < Minitest::Test
   end
 
   def test_first_works
-    assert_equal [["1", "lucifer"]], Users.first
+    assert_equal [["1", "lucifer"]], User.first
   end
 
   def test_last_works
-    assert_equal [['2', 'vaibhav']], Users.last
+    assert_equal [['2', 'vaibhav']], User.last
   end
 
   def test_take_works
-    assert_equal [['1', 'lucifer'], ['2', 'vaibhav']], Users.take(2)
+    assert_equal [['1', 'lucifer'], ['2', 'vaibhav']], User.take(2)
   end
 end
