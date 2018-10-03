@@ -39,6 +39,6 @@ module Functions
   def update(hash, condn_hash)
     str = making_query_from_hash(hash)
     condn = making_query_from_hash(condn_hash)
-    exe("update #{to_s.downcase} set #{str[0..-3]} where #{condn[0..-3]}")
+    exe("update #{find_table_name} set #{str[0..-3]} where #{condn[0..-3]}")
   end
 end
